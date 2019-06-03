@@ -166,14 +166,14 @@ void begin()
         {
             setcolor(RED);
             settextstyle(DEFAULT_FONT, HORIZ_DIR, 1 + i);
-            outtextxy(10, 270, "a Gaming Platform");
+            outtextxy(10, 270, "a Gaming Software");
             a++;
         }
         if (a % 2 == 0)
         {
             setcolor(BLACK);
             settextstyle(DEFAULT_FONT, HORIZ_DIR, i);
-            outtextxy(10, 270, "a Gaming Platform");
+            outtextxy(10, 270, "a Gaming Software");
             a++;
         }
     }
@@ -262,7 +262,7 @@ men:
         cleardevice();
         gotoxy(1, 1);
         cout << "\n\n***********************************************************************";
-        cout << "\n\n\n\n\t\t\tThis console platform was developed by PINE TEAM.";
+        cout << "\n\n\n\n\t\t\tThis console platform was developed by PINE TEAM in association with Steam.";
         cout << "\n\t\t\tIt provides entertainment for people of all ages.";
         cout << "\n\t\t\tIt enhances the logical thinking of the user,";
         cout << "\n\t\t\tdeveloping thinking skills and speed from all angles";
